@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <section class="hero">
+    <p class="eyebrow">A little something for you</p>
+    <h1>Happy Birthday,<br><span id="name">You</span> 🎉</h1>
+    <p class="countdown" id="countdown"></p>
+    <button id="celebrate" class="btn">Tap to celebrate 🎈</button>
+    <a href="#message" class="scroll">scroll down ↓</a>
+  </section>
+
+  <section id="message" class="card reveal">
+    <h2>A note for you</h2>
+    <p id="intro"></p>
+  </section>
+
+  <section class="reveal">
+    <h2 class="center">Things I love about you</h2>
+    <ul id="reasons" class="reasons"></ul>
+  </section>
+
+  <section class="reveal">
+    <h2 class="center">Our moments</h2>
+    <div id="timeline" class="timeline"></div>
+  </section>
+
+  <section class="card gift reveal">
+    <h2>One more thing…</h2>
+    <button id="giftBtn" class="btn">Open your gift 🎁</button>
+    <div id="giftBox" class="gift-box" hidden>
+      <p id="finalNote"></p>
+      <p class="sign" id="sign"></p>
+    </div>
+  </section>
+
+  <footer>Made with ❤️ just for you</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
